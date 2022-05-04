@@ -1,0 +1,7 @@
+# Super-Mario-Clone
+This project is a game made using the MonoGame framework and written using C#. This game is a platformer based on the Super Mario Bros franchise. You play as Mario and make your way through a series of 3 levels. You must complete a level to move onto the next.
+
+The game features 3 enemy types: Goombas, Koopa Troopas, and Para Koopas. They all damage Mario upon collision from the front or back, but both forms of Koopas will turn into a shell upon collsion with Mario from the top. Goombas and Koopas walk forward until they collide with an obstacle, which causes them to turn around and walk in the opposite direction until they collide with another obstacle. Para Koopas fly in an up and down motion until Mario collides with them from the top, which turns the Para Koopa into a traditional Koopa Troopa.
+
+The game features 5 power up types: Red Mushroom (turns small Mario into big Mario), Green Mushroom (gives Mario another life), Fire Flower (gives Mario the power to throw fire ball projectiles), Feather (gives Mario the ability to jump high and glide downwards), and Balloon (gives Mario the ability to float up and down). Power ups can be collected by hitting a Question Block from the bottom, which will spawn a powerup above said block. Mario must then collide with the power up to get its bonus. Upon collision with the Question Block, Red Mushrooms will move in the direction of Mario, Green Mushrooms will move in the opposite direction of Mario, and Feathers will fly upwards and then gradually make their way back down to the ground.
+
